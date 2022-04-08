@@ -1,0 +1,21 @@
+   path= "images/"+ path;
+        System.out.println(path);
+        image = new Image(getClass().getResourceAsStream(path));
+        //image = new Image(path);
+//        File imageFile = new File(path);
+//        System.out.println(path);
+//        try {
+//            bufferedImage = ImageIO.read(imageFile);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+//        File input = new File(getClass().getResource("yaniv/images/+ i"));
+//        //bufferedImage = new BufferedImage((int) Math.round(image.getHeight()),(int) Math.round(image.getHeight()),BufferedImage.TYPE_INT_ARGB);
+//        try {
+//            bufferedImage = ImageIO.read(new File(getClass().getResource("yaniv/images/+ i"))
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+//       image = new Image(getClass().getResourceAsStream("yaniv/images/"+i ));
